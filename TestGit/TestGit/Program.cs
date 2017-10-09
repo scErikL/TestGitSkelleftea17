@@ -12,6 +12,8 @@ namespace TestGit
         {
             Console.WriteLine("Testar GítHub");
             Console.ReadKey();
+
+            Console.WriteLine("Erik Lövbom");
         }
     }
 }
