@@ -22,5 +22,12 @@ namespace TestGit
 
             Console.WriteLine("Erik Lövbom");
         }
+
+        public static string getNumberAsString(int nr)
+        {
+            return nr.ToString();
+        }
+
+        
     }
 }
