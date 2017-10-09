@@ -21,6 +21,10 @@ namespace TestGit
             Console.ReadKey();
 
             Console.WriteLine("Erik Lövbom");
+
+            string nr = getNumberAsString(120);
+
+            
         }
 
         public static string getNumberAsString(int nr)
