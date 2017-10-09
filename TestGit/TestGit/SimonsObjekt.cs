@@ -13,15 +13,13 @@ namespace TestGit
         {
             int r = new Random().Next(0, 20);
 
-            Console.WriteLine("☺\n^" +
-                "_______\n" +
-                "        \\");
+            Console.WriteLine("☺\n├───────┐");
             for (int i = 0; i < r; i++) { 
 
-                Console.WriteLine("| WEOH! |");
+                Console.WriteLine("│ WEOH! │");
 
             }
-            Console.WriteLine("\\_______/");
+            Console.WriteLine("└───────┘");
         }
 
     }
