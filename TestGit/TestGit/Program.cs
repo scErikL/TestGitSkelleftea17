@@ -14,7 +14,7 @@ namespace TestGit
 
 
             //  ( ͡° ͜ʖ ͡°)
-            
+            Console.WriteLine("wow, vilken cool kodrad det här är!"); // Magnus
 
 
             Console.WriteLine("Testar GítHub");
