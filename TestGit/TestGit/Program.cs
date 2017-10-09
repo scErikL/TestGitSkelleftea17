@@ -21,13 +21,15 @@ namespace TestGit
             Console.WriteLine("helt galet hur cool den här koden är!"); // ErikÖ
 
             Console.WriteLine("Testar GítHub");
-            Console.ReadKey();
 
             Console.WriteLine("Erik Lövbom");
 
             string nr = getNumberAsString(120);
 
-            
+            SimonsObjekt so = new SimonsObjekt();
+            Console.ReadKey();
+
+
         }
 
         public static string getNumberAsString(int nr)
