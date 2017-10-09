@@ -14,11 +14,10 @@ namespace TestGit
 
 
             //  ( ͡° ͜ʖ ͡°)
-            
-
-
             Console.WriteLine("Testar GítHub");
             Console.ReadKey();
         }
+        
     }
+
 }
