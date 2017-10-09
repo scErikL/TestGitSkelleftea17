@@ -11,7 +11,7 @@ namespace TestGit
         static void Main(string[] args)
         {
 
-
+            // Mer kommentarer!
 
             //  ( ͡° ͜ʖ ͡°)
             Console.WriteLine("wow, vilken cool kodrad det här är!"); // Magnus
@@ -21,18 +21,22 @@ namespace TestGit
             Console.WriteLine("helt galet hur cool den här koden är!"); // ErikÖ
 
             Console.WriteLine("Testar GítHub");
-            Console.ReadKey();
 
             Console.WriteLine("Erik Lövbom");
 
+            Console.WriteLine("Stuffy McStuffy Stuff");//Oliverius
+
             string nr = getNumberAsString(120);
 
-            
+            SimonsObjekt so = new SimonsObjekt();
+            Console.ReadKey();
+
+
         }
 
-        public static int getNumberAsString(int nr)
+        public static string getNumberAsString(int nr)
         {
-            return nr;
+            return nr.ToString();
         }
 
         
