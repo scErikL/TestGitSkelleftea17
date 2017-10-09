@@ -27,10 +27,18 @@ namespace TestGit
 
             Console.WriteLine("Erik Lövbom");
 
+            Console.ReadKey();
             Cow cows = new Cow();
+            Console.WriteLine("Creating a fancy Cow!");
 
             cows *= 4;
 
+            Console.WriteLine("Multiplying the Cow by 4!");
+
+            Console.WriteLine(cows.ToString());
+
+            Console.WriteLine("Multiplying the Cows by 0!");
+            cows *= 0;
             Console.WriteLine(cows.ToString());
 
             Console.ReadKey();
