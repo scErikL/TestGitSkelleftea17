@@ -24,6 +24,8 @@ namespace TestGit
 
             Console.WriteLine("Erik Lövbom");
 
+            Console.WriteLine("Stuffy McStuffy Stuff");//Oliverius
+
             string nr = getNumberAsString(120);
 
             SimonsObjekt so = new SimonsObjekt();
