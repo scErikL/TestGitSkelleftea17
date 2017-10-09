@@ -30,10 +30,9 @@ namespace TestGit
             
         }
 
-        public static string getNumberAsString(int nr)
+        public static int getNumberAsString(int nr)
         {
-
-            return "hej hej " +nr.ToString();
+            return nr;
         }
 
         
