@@ -32,7 +32,8 @@ namespace TestGit
 
         public static string getNumberAsString(int nr)
         {
-            return nr.ToString();
+
+            return "hej hej " +nr.ToString();
         }
 
         
