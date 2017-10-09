@@ -26,6 +26,14 @@ namespace TestGit
             Console.ReadKey();
 
             Console.WriteLine("Erik Lövbom");
+
+            Cow cows = new Cow();
+
+            cows *= 4;
+
+            Console.WriteLine(cows.ToString());
+
+            Console.ReadKey();
         }
 
         public static string getNumberAsString(int nr)
