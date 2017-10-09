@@ -11,7 +11,7 @@ namespace TestGit
         static void Main(string[] args)
         {
 
-
+            // Mer kommentarer!
 
             //  ( ͡° ͜ʖ ͡°)
             Console.WriteLine("wow, vilken cool kodrad det här är!"); // Magnus
@@ -30,9 +30,9 @@ namespace TestGit
             
         }
 
-        public static int getNumberAsString(int nr)
+        public static string getNumberAsString(int nr)
         {
-            return nr;
+            return nr.ToString();
         }
 
         
