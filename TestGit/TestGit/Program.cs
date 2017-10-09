@@ -14,10 +14,20 @@ namespace TestGit
 
 
             //  ( ͡° ͜ʖ ͡°)
+            Console.WriteLine("wow, vilken cool kodrad det här är!"); // Magnus
+
+
             Console.WriteLine("Testar GítHub");
             Console.ReadKey();
+
+            Console.WriteLine("Erik Lövbom");
         }
+
+        public static string getNumberAsString(int nr)
+        {
+            return nr.ToString();
+        }
+
         
     }
-
 }
