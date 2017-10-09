@@ -15,7 +15,10 @@ namespace TestGit
 
             //  ( ͡° ͜ʖ ͡°)
             Console.WriteLine("wow, vilken cool kodrad det här är!"); // Magnus
+            Console.WriteLine("Ett random nummer: {0}", getNumberAsString(new Random().Next())); // Jimmy
 
+            // (ง꘠▾꘠)ง
+            Console.WriteLine("helt galet hur cool den här koden är!"); // ErikÖ
 
             Console.WriteLine("Testar GítHub");
             Console.ReadKey();
